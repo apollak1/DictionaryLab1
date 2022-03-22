@@ -36,36 +36,46 @@ print("Hello, World!")
  */
 
 
-// PROBLEM 1.0 : CREATE YOU OWN
+// PROBLEM 1.0 : CREATE YOUR OWN
 //Create a dictionary that that maps an integer (1) to its English word (one)
-
+print("\nProblem 1.0\n")
 
 
 
 // PROBLEM 1.1 : TYPE OF DICTIONARY
-//Add a comment describing the type of the dicionary you just made, explain why it is that type
-
+//Add a comment describing the type of the dictionary you just made, explain why it is that type
+print("\nProblem 1.1\n")
 
 
 
 
 // PROBLEM 2.0 : ADVANCED DICTIONARY
-//Create a dictionary called favoriteWords that maps a word you like to its definition
-
+//Create a dictionary called favoriteWords that maps three words you like to its definition
+print("\nProblem 2.0\n")
 
 
 /*
+PROBLEM 2.0.1 : ACCESSING A DICTIONARY
  The way we can access a dictionary and store it to a variable is by accessing the KEY of the dictionary, this will take the associated VALUE with the inputted KEY
  */
+
 var practice = practiceDictionary["rigmarole"]
 print(practice)
 
+
 // PROBLEM 2.1 : ACCESSING DICTIONARY DATA
-// Try to access the the value you created in Problem 2.0 and print it out
+// Try to access the the value you created in Problem 2.0 and print it out. Use the .values attribute. 
+print("\nProblem 2.1\n")
 
 
 //PROBLEM 2.2 : DATA TYPE OF DICTIONARY
-//what is the type of the outputted variable from Problem 2.1? Was it what you expected
+//what is the type of the outputted variable from Problem 2.1? Was it what you expected? Answer it below in a print statement. 
+print("\nProblem 1.0\n")
+
+
+//PROBLEM 2.3 : COUNTING ITEMS IN THE DICTIONARY
+//Use built in dictionary methods to count the amount of elements in the dictionary you crated in problem 2.1. Use the .count attribute. 
+
 
 /*
  What is the value of practice, why is it not a basic String
@@ -78,4 +88,4 @@ print(practice)
  // PROBLEM 2.3 : UNWRAPPING DICTIONARY ITEMS
  //Remember you can unwrap a dictionary using the following logic
 //var name: String? = nil
-
+print("\nProblem 1.0\n")
